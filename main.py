@@ -280,7 +280,9 @@ def reset_game():
     except:
         pass
     start_game()
-#----
+
+
+#----------
 
 label_start = tk.Label(root, text='Вы хотите сыграть в игру?', font=fontExample)
 label_start.place(relx=0.5, rely=0.5, anchor="center")
